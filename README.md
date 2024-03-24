@@ -128,7 +128,7 @@ python main.py
 
 ### Configuration Options
 
-You can configure the Fastlane Arbitrage Bot using the options in the `@click.option` section of `main.py`. An overview of options is provided below:
+You can configure the Fastlane Arbitrage Bot using the options in the `argparse` section of `main.py`. An overview of options is provided below:
 
 - **cache_latest_only** (bool): Whether to cache only the latest events.
 - **backdate_pools** (bool): If True, the bot will collect pool data from pools that were not traded on within the number of blocks specified in alchemy_max_block_fetch. This is useful to search pools that are traded infrequently.
